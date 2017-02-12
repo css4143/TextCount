@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        SortedSet<WordCount> sortedWords = new TreeSet<WordCount>(countMap.values());
+        SortedSet<WordCount> sortedWords = new TreeSet<WordCount>(wordMap.values());
 
         String output = "count" + "\t" + "word\n\n";
 
