@@ -21,6 +21,12 @@ import java.util.Map;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
+
+//Author: Connor Seiden
+//Date: 2/12/2017
+//
+//A simple android app that accesses a users text history and displays the word count of their top 50
+//most used words.
 public class MainActivity extends AppCompatActivity {
 
     public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
